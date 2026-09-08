@@ -86,10 +86,10 @@ fact_sessions
 fact_reviews
 The dimension tables describe customers and products. The fact tables contain sales, sessions, and reviews.
 
-### 5. Analyze Data with Databricks SQL
+### 5. Analyze Data with Databricks SQL[View the Databricks SQL Analytics notebook](E-commerce/Databriks_SQL/databricks_sql_analytics.ipynb)
 SQL queries calculate the main indicators, including total revenue, transaction count, customer count, session count, average rating, sales by category, product performance, and conversion rate.
 
-### 6. Generate Real-Time Events
+### 6. Generate Real-Time Events[View the Python Real-Time Data Generator](real_time/python_generator.ipynb)
 A Python generator simulates new e-commerce transactions. Each event includes a transaction identifier, customer, product, quantity, unit price, total amount, and timestamp
 ### 7. Ingest Events with Auto Loader
 The generator progressively creates new JSON files. Auto Loader monitors the landing directory, detects only new files, and writes them to a real-time Bronze Delta table.
