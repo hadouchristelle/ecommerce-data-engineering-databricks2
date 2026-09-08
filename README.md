@@ -77,7 +77,7 @@ The solution is designed to answer the following business questions.
 Databricks reads the files from ADLS Gen2 and stores them in Bronze tables. This layer preserves the data as closely as possible to its original format.
 ### 3. Clean Data in the Batch Silver Layer [View the Silver transformation notebooks](E-commerce/Data_transformations)
 The Bronze data is cleaned and standardized with PySpark. The main operations include data-type conversion, null handling, duplicate removal, identifier validation, and business-rule validation.
-### 4. Build the Batch Gold Layer
+### 4. Build the Batch Gold Layer [View the Gold transformation notebook](E-commerce/Data_business/gold_transformation.ipynb)
 The Silver data is transformed into business-ready tables:
 dim_customers
 dim_products
