@@ -96,12 +96,12 @@ The generator progressively creates new JSON files. Auto Loader monitors the lan
 Auto Loader uses a schema location and a checkpoint to track processed files and resume correctly after an interruption.
 ### 8. Clean Events with Structured Streaming [View the Real-Time Silver Transformation notebook](real_time/Silver_realtime.ipynb)
 Structured Streaming reads new Bronze records as micro-batches. It converts data types, validates identifiers, rejects invalid quantities and prices, recalculates the total amount, and removes duplicate transactions.
-### 9. Combine Batch and Real-Time Data
+### 9. Combine Batch and Real-Time Data [View the Unified Gold notebook](real_time/gold_unifie.ipynb)
 The MERGE INTO operation compares records by transaction_id:
 a missing transaction is inserted;
 an existing transaction is updated;
 rerunning the process does not create duplicates.
-### 10. Manage Delta Tables
+### 10. Manage Delta Tables [View the SQL Manipulation notebook](real_time/SQL_manipulatin.ipynb)
 The project demonstrates several Delta Lake capabilities:
 -INSERT, UPDATE, and DELETE;
 -MERGE INTO for idempotent processing;
