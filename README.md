@@ -3,6 +3,9 @@
 This project implements a modern data engineering architecture for processing and analyzing data from an e-commerce platform. It combines batch processing for historical data with real-time processing for newly generated events.
 
 The data is organized according to the Medallion architecture: Bronze, Silver, and Gold. The Gold tables are then used in Power BI to create a business dashboard covering sales, customers, products, sessions, and reviews.
+## Dataset
+<img width="813" height="346" alt="image" src="https://github.com/user-attachments/assets/f44e828b-9bc8-4562-b5b3-05f7d4e15ece" />
+
 ## General Objective
 
 The main objective is to build an end-to-end data solution capable of:
