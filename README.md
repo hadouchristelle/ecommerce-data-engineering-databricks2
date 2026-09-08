@@ -69,7 +69,8 @@ The solution is designed to answer the following business questions.
 -Which products may require improvement?
 ## Global Architecture
 <img width="981" height="652" alt="image" src="https://github.com/user-attachments/assets/8b6ca4f0-935d-4695-896e-29afd061c874" />
-## Implementation Steps
+# Implementation Steps
+
 ### 1. Store Source Files in ADLS Gen2
    The five historical files are stored in Azure Data Lake Storage Gen2. ADLS Gen2 provides a centralized storage location before the data is processed in Databricks.
 ### 2. Ingest Data into the Batch Bronze Layer
@@ -114,7 +115,6 @@ Power BI uses the Gold tables to create an interactive dashboard. It presents th
 ### Technologies Used
 -Azure Data Lake Storage Gen2
 -Azure Databricks
--Databricks Free Edition
 -Apache Spark and PySpark
 -Spark Structured Streaming
 -Databricks Auto Loader
