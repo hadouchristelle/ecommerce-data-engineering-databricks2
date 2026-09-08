@@ -73,7 +73,7 @@ The solution is designed to answer the following business questions.
 
 ### 1. Store Source Files in ADLS Gen2
    The five historical files are stored in Azure Data Lake Storage Gen2. ADLS Gen2 provides a centralized storage location before the data is processed in Databricks.
-### 2. Ingest Data into the Batch Bronze Layer
+### 2. Ingest Data into the Batch Bronze Layer 
 Databricks reads the files from ADLS Gen2 and stores them in Bronze tables. This layer preserves the data as closely as possible to its original format.
 ### 3. Clean Data in the Batch Silver Layer
 The Bronze data is cleaned and standardized with PySpark. The main operations include data-type conversion, null handling, duplicate removal, identifier validation, and business-rule validation.
