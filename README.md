@@ -68,7 +68,8 @@ The solution is designed to answer the following business questions.
 
 -Which products may require improvement?
 ## Global Architecture
-<img width="981" height="652" alt="image" src="https://github.com/user-attachments/assets/8b6ca4f0-935d-4695-896e-29afd061c874" />
+<img width="1001" height="695" alt="image" src="https://github.com/user-attachments/assets/aaae0688-ab0e-4e0c-93f8-57ff048cc8e6" />
+
 # Implementation Steps
 
 ### 1. Store Source Files in ADLS Gen2
