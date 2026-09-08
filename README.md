@@ -91,10 +91,10 @@ SQL queries calculate the main indicators, including total revenue, transaction 
 
 ### 6. Generate Real-Time Events[View the Python Real-Time Data Generator](real_time/python_generator.ipynb)
 A Python generator simulates new e-commerce transactions. Each event includes a transaction identifier, customer, product, quantity, unit price, total amount, and timestamp
-### 7. Ingest Events with Auto Loader
+### 7. Ingest Events with Auto Loader [View the Bronze Auto Loader notebook](real_time/autoloader_bronze.ipynb)
 The generator progressively creates new JSON files. Auto Loader monitors the landing directory, detects only new files, and writes them to a real-time Bronze Delta table.
 Auto Loader uses a schema location and a checkpoint to track processed files and resume correctly after an interruption.
-### 8. Clean Events with Structured Streaming
+### 8. Clean Events with Structured Streaming [View the Real-Time Silver Transformation notebook](real_time/Silver_realtime.ipynb)
 Structured Streaming reads new Bronze records as micro-batches. It converts data types, validates identifiers, rejects invalid quantities and prices, recalculates the total amount, and removes duplicate transactions.
 ### 9. Combine Batch and Real-Time Data
 The MERGE INTO operation compares records by transaction_id:
