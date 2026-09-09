@@ -113,6 +113,8 @@ The project demonstrates several Delta Lake capabilities:
 -Time Travel for querying previous versions;
 -OPTIMIZE for compacting small files;
 -Z-ORDER for improving queries filtered by customer or product.
+### star Schemas
+<img width="1048" height="785" alt="image" src="https://github.com/user-attachments/assets/b9e5d935-e7dc-4796-9f83-62d5042570df" />
 ### 11. Build the Power BI Dashboard
 Power BI uses the Gold tables to create an interactive dashboard. It presents the main KPIs, monthly trends, customer segments, product categories, marketing channels, devices, and countries.
 <img width="1145" height="710" alt="image" src="https://github.com/user-attachments/assets/6abd5a91-fc65-445c-9754-2b43d740d36c" />
