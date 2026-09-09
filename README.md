@@ -92,6 +92,8 @@ The dimension tables describe customers and products. The fact tables contain sa
 
 ### 5. Analyze Data with Databricks SQL[View the Databricks SQL Analytics notebook](E-commerce/Databriks_SQL/databricks_sql_analytics.ipynb)
 SQL queries calculate the main indicators, including total revenue, transaction count, customer count, session count, average rating, sales by category, product performance, and conversion rate.
+### star Schemas (Batch Processing)
+<img width="1048" height="785" alt="image" src="https://github.com/user-attachments/assets/b9e5d935-e7dc-4796-9f83-62d5042570df" />
 
 ### 6. Generate Real-Time Events[View the Python Real-Time Data Generator](real_time/python_generator.ipynb)
 A Python generator simulates new e-commerce transactions. Each event includes a transaction identifier, customer, product, quantity, unit price, total amount, and timestamp
@@ -113,8 +115,6 @@ The project demonstrates several Delta Lake capabilities:
 -Time Travel for querying previous versions;
 -OPTIMIZE for compacting small files;
 -Z-ORDER for improving queries filtered by customer or product.
-### star Schemas
-<img width="1048" height="785" alt="image" src="https://github.com/user-attachments/assets/b9e5d935-e7dc-4796-9f83-62d5042570df" />
 
 ### 11. Build the Power BI Dashboard
 
